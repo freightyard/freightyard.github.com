@@ -1,0 +1,24 @@
+body{background: url(../images/background.jpg);}
+#site{width: 960px; margin: 0 auto; position: relative;}
+
+.nav{position: absolute;}
+.article{float: left;}
+.section{float: left; clear: both; width: 100%;}
+.button{background: #618198; padding: 10px 20px;}
+#header{font-family: "Lucida Grande", sans-serif;height: 305px; background: url(../images/masthead.jpg); padding-left: 570px; padding-top: 95px;color: #fff;}
+#header a{color: #fff;}
+#header h1{position: absolute; top: 0; left: 0; display: block; background: url(../images/freightyard.jpg); height: 120px; width: 180px;}
+#header h1 span{display: none;}
+#header h2{font-size: 50px; margin-bottom: 0px;font-family: "Lucida Grande", sans-serif; word-spacing: 0px; letter-spacing: -1px; font-weight: bold;}
+#header h3{font-size: 30px; color: #ddd;}
+#header #download{text-decoration: none; text-transform: uppercase; color: #fff; background: #618198; padding: 10px 60px; font-size: 16px;}
+
+#navigation{position: absolute; top: 0; right: 50px;}
+#navigation a{display: block; float: left; margin-right: 2px; color: #fff; font-size: 16px; padding: 5px 10px; background: rgba(238, 28, 37, 0.8); text-decoration: none; -webkit-text-shadow: 1px 1px 1px #333; -moz-text-shadow: 1px 1px 1px #333; text-shadow: 1px 1px 1px #333;}
+
+#content .article{width: 270px; background: #fff; padding: 10px;}
+#content h3{color: red; border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+
+#footer .article{width: 45%;}
+#footer .figure{width: 25%; float: left;}
+#footer p{float: left;}
