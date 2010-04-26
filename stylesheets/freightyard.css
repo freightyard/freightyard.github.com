@@ -11,7 +11,9 @@ body{background: url(../images/background.jpg);}
 #header h1 span{display: none;}
 #header h2{font-size: 50px; margin-bottom: 0px;font-family: "Lucida Grande", sans-serif; word-spacing: 0px; letter-spacing: -1px; font-weight: bold;}
 #header h3{font-size: 30px; color: #ddd;}
-#header #download{text-decoration: none; text-transform: uppercase; color: #fff; background: #618198; padding: 10px 60px; font-size: 16px;}
+
+#header #download{text-decoration: none; }
+#header #download span{visibility: hidden;text-transform: uppercase; color: #fff; background: #618198; padding: 10px 60px; font-size: 16px;}
 
 #navigation{position: absolute; top: 0; right: 50px;}
 #navigation a{display: block; float: left; margin-right: 2px; color: #fff; font-size: 16px; padding: 5px 10px; background: rgba(238, 28, 37, 0.8); text-decoration: none; -webkit-text-shadow: 1px 1px 1px #333; -moz-text-shadow: 1px 1px 1px #333; text-shadow: 1px 1px 1px #333;}
