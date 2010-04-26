@@ -10,16 +10,43 @@ body{background: url(../images/background.jpg);}
 #header h1{position: absolute; top: 0; left: 0; display: block; background: url(../images/freightyard.jpg); height: 120px; width: 180px;}
 #header h1 span{display: none;}
 #header h2{font-size: 50px; margin-bottom: 0px;font-family: "Lucida Grande", sans-serif; word-spacing: 0px; letter-spacing: -1px; font-weight: bold;}
-#header h3{font-size: 30px; color: #ddd;}
+#header h3{font-size: 30px; color: #ddd; }
 
-#header #download{text-decoration: none; }
-#header #download span{visibility: hidden;text-transform: uppercase; color: #fff; background: #618198; padding: 10px 60px; font-size: 16px;}
+#header #download{text-decoration: none; background: none;}
+#header #download span{visibility: hidden;text-transform: uppercase;  padding: 10px 60px; font-size: 16px;}
 
 #navigation{position: absolute; top: 0; right: 50px;}
 #navigation a{display: block; float: left; margin-right: 2px; color: #fff; font-size: 16px; padding: 5px 10px; background: rgba(238, 28, 37, 0.8); text-decoration: none; -webkit-text-shadow: 1px 1px 1px #333; -moz-text-shadow: 1px 1px 1px #333; text-shadow: 1px 1px 1px #333;}
+#navigation a{
+  font-weight: bold;
+  font-size: 14px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px; 
+  -webkit-border-bottom-right-radius: 5px;
+}
 
 #content .article{width: 270px; background: #fff; padding: 10px;}
-#content h3{color: red; border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+#content .article{
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px; 
+  -webkit-border-top-right-radius: 10px;
+  -webkit-box-shadow: 0 -1px 3px #666;
+  -moz-box-shadow: 0 -1px 3px #666;
+  padding-bottom: 50px;
+}
+#content h3{color: red; border-bottom: 1px solid #ccc; padding-bottom: 10px;font-weight: bold; font-size: 18px; padding-top: 5px;}
+
+.article h4{margin-left: 5px;}
+.article ul{margin-left: 5px;}
+
+#content h4{font-weight: bold; margin-bottom: 10px;}
+#content .article ul{margin-left: 0; padding-left: 0;}
+#content .article li{display: block; list-style:none; margin-left: 10px; padding-left: 15px; margin-bottom: 5px; background: url(../images/arrow.gif) 0px 4px no-repeat; color: #333;}
+
+#footer{background: #ccc;-webkit-box-shadow: 0 -1px 5px #666; position: relative; z-index: 10; min-height: 150px;}
+#footer #footer_content{width: 960px; margin: 0 auto; color: #fff; padding: 20px 0 50px 0;}
 
 #footer .article{width: 45%;}
 #footer .figure{width: 25%; float: left;}
